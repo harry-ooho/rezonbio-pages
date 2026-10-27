@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- DRAFT v0.9 design. TBC pills = open items from the copy doc (hover for detail). Links with data-todo need real URLs. -->
-<title>Biosimilar Development &amp; Manufacturing CDMO | Rezon Bio</title>
+<!-- DRAFT v1 design, copy from "RezonBio_Biosimilars_Page_Draft_v1". Links with data-todo need real URLs. -->
+<title>Biosimilar Manufacturing CDMO Europe | Rezon Bio</title>
 <link rel="icon" href="favicons/rezonbio-favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicons/rezonbio-favicon-32.png">
 <link rel="apple-touch-icon" href="favicons/rezonbio-webclip-256.png">
-<meta name="description" content="Rezon Bio is a European biosimilar CDMO: 3 biosimilars approved globally, 97% batch success rate across 137 batches, FDA- and EMA-approved sites in Poland.">
+<meta name="description" content="Rezon Bio: biosimilar manufacturing in Europe, cell line to commercial supply at FDA- and EMA-approved sites in Poland. 3 globally approved biosimilars.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 
-<!-- Schema: Service, FAQPage (section 11), ItemList (section 6), BreadcrumbList. Update the page URL once the slug is final. -->
+<!-- Schema: Service, FAQPage (section 9), ItemList (section 6), BreadcrumbList. Update the page URL once the slug is final. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,7 +32,7 @@
       "name": "Biosimilar development and manufacturing",
       "serviceType": "Biosimilar CDMO services",
       "url": "https://rezonbio.com/solutions/biosimilars/",
-      "description": "Rezon Bio is a European biologics CDMO that takes biosimilar programs from cell line development through PPQ to commercial supply, at two FDA- and EMA-approved GMP sites in Poland.",
+      "description": "Rezon Bio is a European CDMO, specialized in biologics, that takes biosimilar programs from cell line development to commercial supply, with two FDA- and EMA-approved GMP sites in Poland.",
       "areaServed": "Worldwide",
       "provider": { "@type": "Organization", "name": "Rezon Bio", "url": "https://rezonbio.com/" }
     },
@@ -41,12 +41,12 @@
       "name": "What does biosimilar development involve?",
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Reference product and target definition", "description": "We source and characterize the reference product to define the target product profile and the critical quality attributes (CQAs) your biosimilar has to match." },
-        { "@type": "ListItem", "position": 2, "name": "Analytical and functional characterization", "description": "Orthogonal methods for CQAs, including peptide mapping by LC-MS, plus functional and cell-based potency assays that reflect the mode of action, developed early because they are often the most technically challenging." },
-        { "@type": "ListItem", "position": 3, "name": "Cell line and process development", "description": "Our process development team covers cell line development, with clone selection that weighs product quality against titer, not titer alone. Ambr 15 and 250 systems support early process development." },
+        { "@type": "ListItem", "position": 1, "name": "Reference product and target definition", "description": "We source and characterize the reference product to define its profile and the critical quality attributes (CQAs) the biosimilar must match." },
+        { "@type": "ListItem", "position": 2, "name": "Analytical and functional characterization", "description": "Orthogonal methods for CQAs that reflect the mode of action, developed early because they are often the most technically challenging." },
+        { "@type": "ListItem", "position": 3, "name": "Cell line & process development", "description": "Our team handles cell line development and clone selection, prioritizing similarity to the reference product before optimizing titer. Ambr 15 and Ambr 250 systems let us screen clones and test process conditions at small scale first, generating robust data faster before scale-up." },
         { "@type": "ListItem", "position": 4, "name": "Scale-up and technology transfer", "description": "Tech transfers into Rezon Bio or between our two sites, with MS&T and QA involved before transfer, not after. 12 tech transfers completed since operations began." },
         { "@type": "ListItem", "position": 5, "name": "GMP manufacturing and PPQ", "description": "Clinical and commercial drug substance in single-use bioreactors up to 2 x 2,000 L. Process characterization builds the frame for Process Performance Qualification (PPQ), from protocol to execution." },
-        { "@type": "ListItem", "position": 6, "name": "Regulatory support and market entry", "description": "Comparability assessment, scientific advice, dossier support and pre-approval inspection (PAI) support from our internal regulatory team. Drug product through qualified partners." }
+        { "@type": "ListItem", "position": 6, "name": "Market entry", "description": "Comparability assessment, scientific advice, dossier support and pre-approval inspection (PAI) support from our internal regulatory team. Drug product through qualified partners." }
       ]
     },
     {
@@ -322,6 +322,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
 .cta-band.is-dark{position:relative;overflow:hidden;background:var(--indigo-dark);color:var(--white)}
 .cta-band.is-dark .glow{width:700px;height:700px;right:-200px;top:-320px;opacity:.8}
 .cta-band.is-dark > :not(.glow){position:relative;z-index:1}
+.cta-band_buttons{display:flex;flex-wrap:wrap;gap:10px;flex:none}
 
 /* =========================================================
    6. DEVELOPMENT STAGES (timeline)
@@ -710,7 +711,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
         <a href="#model" class="subnav_link" data-subnav-link>Our model</a>
         <a href="#case-studies" class="subnav_link" data-subnav-link>Case studies</a>
         <a href="#development" class="subnav_link" data-subnav-link>Development</a>
-        <a href="#services" class="subnav_link" data-subnav-link>Services</a>
+        <a href="#facilities" class="subnav_link" data-subnav-link>Facilities</a>
         <a href="#faq" class="subnav_link" data-subnav-link>FAQ</a>
       </nav>
       <a href="https://rezonbio.com/contact/" class="button subnav_cta">Book a meeting</a>
@@ -730,8 +731,9 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               <a href="https://rezonbio.com/solutions/">Solutions</a><svg aria-hidden="true"><use href="#i-chev-right"/></svg>
               <span aria-current="page">Biosimilars</span>
             </nav>
-            <h1 class="heading-style-h1">Biosimilar development and manufacturing, from molecule to market</h1>
-            <p class="solution-hero_description">Rezon Bio is a European biologics CDMO that takes biosimilar programs from cell line development through PPQ to commercial supply, at two FDA- and EMA-approved GMP sites in Poland. Our teams have developed three biosimilars approved globally, two already commercialized, and supported more than 25 global biosimilar submissions.</p>
+            <h1 class="heading-style-h1">Biosimilar manufacturing in Europe</h1>
+            <p class="solution-hero_description">Rezon Bio is a European CDMO, specialized in biologics, that takes biosimilar programs from cell line development to commercial supply, with two FDA- and EMA-approved GMP sites in Poland.</p>
+            <p class="solution-hero_description">With more than 25 global biosimilar submissions supported, and 3 developed and commercialized by our own team, we bring a validated expertise to your project.</p>
             <a href="https://rezonbio.com/contact/" class="button">Talk to our biosimilar team <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
         </div>
@@ -751,15 +753,15 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             <div class="section-header is-left" data-anim="fade-up">
               <span class="text-label">At a glance</span>
               <h2 class="heading-style-h2 is-medium">Rezon Bio biosimilar services at a glance</h2>
-              <p class="section-header__description">Rezon Bio’s biosimilar model is built on the experience of taking three biosimilars to global approval. For sponsors, that means five things:</p>
+              <p class="section-header__description">Rezon Bio’s experience of taking three biosimilars to global approval guarantees five things for our sponsors:</p>
             </div>
           </div>
           <ul class="glance_list" data-anim="stagger">
-            <li class="glance_item"><span class="glance_number">01</span><p><strong>Approval experience, not just development experience.</strong>The teams behind three globally approved biosimilars run your program.</p></li>
+            <li class="glance_item"><span class="glance_number">01</span><p><strong>Global validated experience.</strong>The teams behind our previous success run your program.</p></li>
             <li class="glance_item"><span class="glance_number">02</span><p><strong>Analytics that carry the filing.</strong>Analytical results steer decisions from clone selection onwards, so the similarity case builds with the process.</p></li>
-            <li class="glance_item"><span class="glance_number">03</span><p><strong>Fewer surprises at review.</strong>An internal regulatory team aligns comparability strategy with the FDA and EMA before you submit.</p></li>
-            <li class="glance_item"><span class="glance_number">04</span><p><strong>No change of CDMO to scale up.</strong>Mirrored capabilities in Gdańsk and Warsaw-Duchnice take you from first-in-human to 2 x 2,000 L.</p></li>
-            <li class="glance_item"><span class="glance_number">05</span><p><strong>Drug product without the hand-off risk.</strong>Long-standing, qualified partners for formulation, fill-finish and devices, coordinated by Rezon Bio.</p></li>
+            <li class="glance_item"><span class="glance_number">03</span><p><strong>Regulatory from the beginning.</strong>A dedicated team aligns comparability strategy with the FDA and EMA before submission.</p></li>
+            <li class="glance_item"><span class="glance_number">04</span><p><strong>Rezon scales up at needs.</strong>Our 2 sites in Gdańsk and Warsaw-Duchnice can take you from first-in-human to 2 x 2,000 L.</p></li>
+            <li class="glance_item"><span class="glance_number">05</span><p><strong>Reduced hand-off risk.</strong>Long-standing, qualified partners for formulation, fill-finish and devices, coordinated by Rezon Bio.</p></li>
           </ul>
         </div>
       </div>
@@ -771,8 +773,8 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
         <div class="container-huge">
           <div class="section-header" data-anim="fade-up">
             <span class="text-label">Track record</span>
-            <h2 class="heading-style-h2">Experience that moves biosimilars forward</h2>
-            <p class="section-header__description">Rezon Bio brings more than 13 years of biologics development experience, built largely on biosimilars. These are the numbers behind it.</p>
+            <h2 class="heading-style-h2">Rezon Bio moves biosimilars forward</h2>
+            <p class="section-header__description">13 years of biologics development experience, built largely on biosimilars.</p>
           </div>
           <div class="bento" data-anim="stagger">
             <div class="bento_tile is-large is-dark">
@@ -786,7 +788,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               </div>
             </div>
             <div class="bento_tile is-large is-peach">
-              <div class="bento_top"><span class="icon-tile"><svg aria-hidden="true"><use href="#i-check"/></svg></span><span class="tbc" title="TBC #2: basis for '100% first-cycle approval': number of approvals, agencies, period">TBC #2</span></div>
+              <div class="bento_top"><span class="icon-tile"><svg aria-hidden="true"><use href="#i-check"/></svg></span></div>
               <div class="bento_bottom">
                 <div class="bento_number"><span data-count="100">100</span>%</div>
                 <p class="bento_label">first-cycle approval track record</p>
@@ -802,10 +804,11 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               </div>
             </div>
             <div class="bento_tile">
-              <div class="bento_top"><span class="icon-tile is-orange"><img src="https://rezonbio.com/wp-content/uploads/2025/09/Frame.svg" alt="" aria-hidden="true"></span><span class="tbc" title="TBC #11: agencies and markets behind the 25+ submissions">TBC #11</span></div>
+              <div class="bento_top"><span class="icon-tile is-orange"><img src="https://rezonbio.com/wp-content/uploads/2025/09/Frame.svg" alt="" aria-hidden="true"></span></div>
               <div class="bento_bottom">
                 <div class="bento_number"><span data-count="25">25</span>+</div>
                 <p class="bento_label">global biosimilar submissions supported</p>
+                <p class="bento_context">With our internal regulatory team.</p>
               </div>
             </div>
             <div class="bento_tile">
@@ -817,7 +820,6 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               </div>
             </div>
           </div>
-          <p class="footnote bento_footnote">Track record includes programs developed by Rezon Bio’s teams before the company launched in September 2025.<span class="tbc" title="TBC #8: Polpharma Biologics heritage wording">TBC #8</span></p>
         </div>
       </div>
     </section>
@@ -829,14 +831,15 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
         <div class="container-huge">
           <div class="section-header" data-anim="fade-up">
             <span class="text-label">Our model</span>
-            <h2 class="heading-style-h2">What makes Rezon Bio’s biosimilar model different?</h2>
-            <p class="section-header__description">Many CDMOs offer biosimilar development and manufacturing under one roof. Fewer connect process development, analytics, regulatory and manufacturing around one CMC strategy from day one. At Rezon Bio, that is how biosimilar programs run, building on the biosimilar track record of Polpharma Biologics.<span class="tbc" title="TBC #8: Polpharma Biologics heritage wording">TBC #8</span></p>
+            <h2 class="heading-style-h2">What makes Rezon Bio different?</h2>
+            <p class="section-header__description">Many CDMOs offer biosimilar development and manufacturing under one single roof. Few connect process development, analytics, regulatory and manufacturing around one CMC strategy to support their sponsors on all the aspects of the program.</p>
+            <p class="section-header__description">At Rezon Bio, building on Polpharma Biologics’ biosimilar track record, that is how we run our biosimilar programs.</p>
           </div>
           <div class="model_grid" data-anim="stagger">
             <article class="model_card">
               <div class="model_card-top"><span class="icon-tile is-glass"><svg aria-hidden="true"><use href="#i-chart"/></svg></span><span class="model_card-index">01</span></div>
-              <h3 class="heading-style-h3">Analytics at the core, not on the sidelines</h3>
-              <p>Analytical similarity carries most of the evidence in a biosimilar filing. Our analytical and process teams work together from clone selection onwards, backed by <span class="hl">78 analytical techniques</span> established in GMP, <span class="hl">70,000 samples</span> tested in 2025 and <span class="hl">223 people</span> in analytical development and QC.</p>
+              <h3 class="heading-style-h3">Analytics at the core</h3>
+              <p>Analytical similarity carries most of the evidence in a biosimilar filing. Our analytical and process teams work together from clone selection onwards, backed by <span class="hl">78 analytical techniques</span> established in GMP, <span class="hl">70,000 samples</span> tested in 2025, and <span class="hl">223 people</span> in analytical development &amp; QC.</p>
               <figure class="quote">
                 <blockquote class="quote_text">“Analytics is not only a supporting activity, but is actually the core of biosimilars development.”</blockquote>
                 <figcaption class="quote_author"><strong>Dr. Barbara Fedejko-Kap</strong>Associate VP Development</figcaption>
@@ -844,8 +847,8 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             </article>
             <article class="model_card">
               <div class="model_card-top"><span class="icon-tile is-glass"><svg aria-hidden="true"><use href="#i-shield"/></svg></span><span class="model_card-index">02</span></div>
-              <h3 class="heading-style-h3">Regulatory strategy built in, not bolted on</h3>
-              <p>Our internal regulatory team sits in the project meetings, not just the report review, and aligns comparability strategy with the FDA and EMA up front, so extra data requests are met before submission.</p>
+              <h3 class="heading-style-h3">Regulatory strategy built in</h3>
+              <p>Our internal regulatory team sits in project meetings, and aligns comparability strategy with the FDA and EMA up front, so we receive and meet extra data requests before submission.</p>
               <figure class="quote">
                 <blockquote class="quote_text">“At Rezon Bio, we have a strong internal regulatory team integrated with development, which speeds up our decisions and differentiates us.”</blockquote>
                 <figcaption class="quote_author"><strong>Dr. Barbara Fedejko-Kap</strong>Associate VP Development</figcaption>
@@ -854,16 +857,17 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             <article class="model_card">
               <div class="model_card-top"><span class="icon-tile is-glass"><svg aria-hidden="true"><use href="#i-link"/></svg></span><span class="model_card-index">03</span></div>
               <h3 class="heading-style-h3">One drug substance partner from clinic to commercial</h3>
-              <p>Development, clinical and commercial drug substance manufacturing, quality control and regulatory support all sit within Rezon Bio. Sponsors get one project manager, direct access to the experts, and fewer handovers where knowledge can get lost.</p>
+              <p>Development, clinical and commercial drug substance manufacturing, quality control and regulatory support all sit within Rezon Bio. Sponsors get one project manager, direct access to the experts, and fewer handovers.</p>
             </article>
             <article class="model_card">
               <div class="model_card-top"><span class="icon-tile is-glass"><svg aria-hidden="true"><use href="#i-coins"/></svg></span><span class="model_card-index">04</span></div>
-              <h3 class="heading-style-h3">Cost of goods in focus from the start</h3>
-              <p>For biosimilars, price often decides market access. Single-use capacity from 50 L to 2 x 2,000 L and competitive pricing help keep cost of goods down. In one commercial process, our team raised yield 2.4× without major capital spend.<span class="tbc" title="TBC #12: pricing or engagement models">TBC #12</span></p>
+              <h3 class="heading-style-h3">Driven with market access vision</h3>
+              <p>For biosimilars, the price of the final product - influenced by each step of the production - often impact market access. At Rezon Bio, we take it into account when we study and optimize the production processes.</p>
+              <a href="#case-yield" class="text-link">See how our team raised yield 2.4× without major capital spend during one of our projects <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
             </article>
           </div>
           <div class="links-row">
-            <a href="#" data-todo="Article 7 URL" class="text-link">Read what integrated biologics manufacturing looks like in practice at Rezon Bio <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a href="#" data-todo="Article 7 URL" class="text-link">Read what integrated biologics manufacturing looks like in practice at Rezon Bio. <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
         </div>
       </div>
@@ -889,31 +893,21 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               </div>
               <div class="case-row_photo"><img src="https://rezonbio.com/wp-content/uploads/2025/09/integrated-analytics-2.webp" alt="Analytical scientist reviewing comparability data" loading="lazy"></div>
             </article>
-            <article class="case-row" data-anim="fade-up">
+            <article class="case-row" id="case-yield" data-anim="fade-up">
               <div class="case-row_title">
                 <span class="text-label">Case study 02 · Process optimization</span>
                 <h3 class="heading-style-h3">2.4× more yield from a validated commercial process</h3>
               </div>
               <div class="case-row_body">
-                <p>At Gdańsk, the team optimized the validated process for a commercial mAb fragment. With digital twin modeling over eight campaigns, cumulative yield rose 2.4×, with no major capital spend and no new regulatory submission for most changes.<span class="tbc" title="TBC #13: approval to feature the Article 4 yield case (mAb fragment) on this page">TBC #13</span></p>
+                <p>At Gdańsk, the team optimized the validated process for a commercial mAb fragment. With digital twin modeling over eight campaigns, cumulative yield rose 2.4×, with no major capital spend and no new regulatory submission for most changes.</p>
                 <a href="#" data-todo="Article 4 URL" class="text-link">Read the case study <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
               </div>
               <div class="case-row_photo"><img src="https://rezonbio.com/wp-content/uploads/2025/10/about-us-1-880x1060.webp" alt="Automated laboratory equipment at Rezon Bio" loading="lazy"></div>
             </article>
-            <article class="case-row" data-anim="fade-up">
-              <div class="case-row_title">
-                <span class="text-label">Case study 03 · Commercial</span>
-                <h3 class="heading-style-h3">Commercially approved biosimilars</h3>
-              </div>
-              <div class="case-row_body">
-                <p class="placeholder">Summary to follow: cell line to commercial timeline, PPQ batches, regulatory outcome, markets.<span class="tbc" title="TBC #1: anonymized summaries of the 2 commercialized biosimilars">TBC #1</span></p>
-              </div>
-              <div class="case-row_photo"><img src="https://rezonbio.com/wp-content/uploads/2025/08/quality-compliance.webp" alt="Quality review of commercial biosimilar documentation" loading="lazy"></div>
-            </article>
           </div>
           <div class="cta-band" data-anim="fade-up">
-            <p>Facing your own comparability challenge? Talk to our development team before your next process change.</p>
-            <a href="https://rezonbio.com/contact/" class="button is-navy">Talk to our biosimilar team <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <p>Looking for a biosimilar manufacturing partner in Europe?</p>
+            <a href="https://rezonbio.com/contact/" class="button is-navy">Talk to our team <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
         </div>
       </div>
@@ -928,23 +922,22 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
               <div class="section-header is-left" data-anim="fade-up">
                 <span class="text-label">Development</span>
                 <h2 class="heading-style-h2 is-medium">What does biosimilar development involve?</h2>
-                <p class="section-header__description">Biosimilar development means building a biologic that is highly similar to an approved reference product, with no clinically meaningful differences, and proving it to regulators. Most programs at Rezon Bio move through six stages, targeting market entry in less than 3 years.<span class="tbc" title="TBC #5: typical duration per stage behind 'market entry in less than 3 years'">TBC #5</span></p>
-                <a href="#" data-todo="Article 8 URL" class="text-link">Read why analytical characterization sits at the center of biosimilar development <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                <p class="section-header__description">Biosimilar development means building a biologic that is highly similar to an approved reference product, with no clinically meaningful differences, and proving it to regulators. Most programs at Rezon Bio move through six stages, targeting market entry in less than 3 years.</p>
               </div>
             </div>
             <div>
               <ol class="stages_list" data-stages>
                 <li class="stage" data-stage>
                   <span class="stage_number">01</span>
-                  <div><h3 class="heading-style-h5">Reference product and target definition</h3><p>We source and characterize the reference product to define the target product profile and the critical quality attributes (CQAs) your biosimilar has to match.</p></div>
+                  <div><h3 class="heading-style-h5">Reference product and target definition</h3><p>We source and characterize the reference product to define its profile and the critical quality attributes (CQAs) the biosimilar must match.</p></div>
                 </li>
                 <li class="stage" data-stage>
                   <span class="stage_number">02</span>
-                  <div><h3 class="heading-style-h5">Analytical and functional characterization</h3><p>Orthogonal methods for CQAs, including peptide mapping by LC-MS, plus functional and cell-based potency assays that reflect the mode of action, developed early because they are often the most technically challenging.</p></div>
+                  <div><h3 class="heading-style-h5">Analytical and functional characterization</h3><p>Orthogonal methods for CQAs that reflect the mode of action, developed early because they are often the most technically challenging.</p></div>
                 </li>
                 <li class="stage" data-stage>
                   <span class="stage_number">03</span>
-                  <div><h3 class="heading-style-h5">Cell line and process development</h3><p>Our process development team covers cell line development, with clone selection that weighs product quality against titer, not titer alone. Ambr® 15 and 250 systems support early process development.<span class="tbc" title="TBC #7: cell line development in-house or partner; host cell line and typical titers">TBC #7</span></p></div>
+                  <div><h3 class="heading-style-h5">Cell line &amp; process development</h3><p>Our team handles cell line development and clone selection, prioritizing similarity to the reference product before optimizing titer. Ambr® 15 and Ambr® 250 systems let us screen clones and test process conditions at small scale first, generating robust data faster before scale-up.</p></div>
                 </li>
                 <li class="stage" data-stage>
                   <span class="stage_number">04</span>
@@ -952,145 +945,34 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
                 </li>
                 <li class="stage" data-stage>
                   <span class="stage_number">05</span>
-                  <div><h3 class="heading-style-h5">GMP manufacturing and PPQ</h3><p>Clinical and commercial drug substance in single-use bioreactors up to 2 x 2,000 L. Process characterization builds the frame for Process Performance Qualification (PPQ), from protocol to execution.<span class="tbc" title="TBC #10: number of PPQs executed, and how many were biosimilars">TBC #10</span></p></div>
+                  <div><h3 class="heading-style-h5">GMP manufacturing and PPQ</h3><p>Clinical and commercial drug substance in single-use bioreactors up to 2 x 2,000 L. Process characterization builds the frame for Process Performance Qualification (PPQ), from protocol to execution.</p></div>
                 </li>
                 <li class="stage" data-stage>
                   <span class="stage_number">06</span>
-                  <div><h3 class="heading-style-h5">Regulatory support and market entry</h3><p>Comparability assessment, scientific advice, dossier support and pre-approval inspection (PAI) support from our internal regulatory team. Drug product through qualified partners<sup>1</sup>.</p></div>
+                  <div><h3 class="heading-style-h5">Market entry</h3><p>Comparability assessment, scientific advice, dossier support and pre-approval inspection (PAI) support from our internal regulatory team. Drug product through qualified partners.</p></div>
                 </li>
               </ol>
-              <p class="footnote stages_note"><sup>1</sup> Delivered by trusted and qualified external partners.</p>
             </div>
           </div>
           <div class="cta-band is-dark" style="margin-top:64px" data-anim="fade-up">
             <div class="glow" aria-hidden="true"></div>
-            <p>Planning a process change or site transfer? Talk to our development team about your comparability evidence before the change, not after.</p>
-            <a href="https://rezonbio.com/contact/" class="button">Talk to our biosimilar team <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== 7. BIOSIMILAR VS NBE ===================== -->
-    <section class="section_vs" id="biosimilar-vs-nbe">
-      <div class="padding-global padding-section-large">
-        <div class="container-huge">
-          <div class="section-header" data-anim="fade-up">
-            <span class="text-label">Biosimilar vs NBE</span>
-            <h2 class="heading-style-h2">How does a biosimilar CDMO differ from an NBE-focused one?</h2>
-            <p class="section-header__description">Both run the same core development and GMP manufacturing. The difference is what the evidence has to prove. An NBE program proves a new molecule is safe and effective. A biosimilar program proves similarity to a reference product, mostly through analytics.</p>
-          </div>
-          <figure class="quote pull-quote" data-anim="fade-up">
-            <span class="quote_mark"><svg aria-hidden="true"><use href="#i-quote"/></svg></span>
-            <blockquote class="quote_text">“Developing biosimilars is much trickier than developing an NBE, especially at these initial stages of process and product development.”</blockquote>
-            <figcaption class="quote_author"><strong>Dr. Barbara Fedejko-Kap</strong>Associate VP Development</figcaption>
-          </figure>
-          <div class="compare_layout">
-            <article class="compare_card is-dark" data-anim="fade-up">
-              <div class="compare_header"><h3 class="heading-style-h3">Biosimilar program</h3><span class="text-label">Our core</span></div>
-              <dl class="compare_rows">
-                <div class="compare_row"><dt>Goal</dt><dd>Match the reference product’s quality profile</dd></div>
-                <div class="compare_row"><dt>Evidence</dt><dd>Analytical and functional similarity; clinical studies tailored or, in some cases, waived</dd></div>
-                <div class="compare_row"><dt>Analytics</dt><dd>Orthogonal methods and functional assays benchmarked against the reference product</dd></div>
-                <div class="compare_row"><dt>Process</dt><dd>Tuned to hit the reference product’s CQA ranges, such as glycosylation and charge variants</dd></div>
-                <div class="compare_row"><dt>Commercial pressure</dt><dd>Cost of goods and speed to market against other biosimilars</dd></div>
-              </dl>
-            </article>
-            <article class="compare_card" data-anim="fade-up">
-              <div class="compare_header"><h3 class="heading-style-h3">NBE program</h3></div>
-              <dl class="compare_rows">
-                <div class="compare_row"><dt>Goal</dt><dd>Establish a new molecule’s safety and efficacy</dd></div>
-                <div class="compare_row"><dt>Evidence</dt><dd>Full clinical development</dd></div>
-                <div class="compare_row"><dt>Analytics</dt><dd>Characterization of the molecule itself, to build its control strategy</dd></div>
-                <div class="compare_row"><dt>Process</dt><dd>Built around the new molecule’s own target profile</dd></div>
-                <div class="compare_row"><dt>Commercial pressure</dt><dd>Speed to clinic and IND</dd></div>
-              </dl>
-            </article>
-          </div>
-          <div class="compare_close" data-anim="fade-up">
-            <p>Rezon Bio runs both. The analytical discipline built on biosimilars also strengthens our NBE programs.</p>
-            <!-- Link to the NBE page once live -->
-            <a href="#" data-todo="NBE page URL (once live)" class="text-link is-pending" title="Link to the NBE page once live">NBE programs at Rezon Bio <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== 8. END-TO-END SERVICES ===================== -->
-    <section class="section_services" id="services">
-      <div class="padding-global padding-section-large">
-        <div class="container-huge">
-          <div class="section-header" data-anim="fade-up">
-            <span class="text-label">Services</span>
-            <h2 class="heading-style-h2">End-to-end biosimilar services</h2>
-            <p class="section-header__description">Rezon Bio delivers drug substance development and manufacturing in-house, and drug product through long-standing, qualified partners. That makes us different from a fully integrated DS/DP CDMO, but sponsors still get one coordinated workflow and one point of contact.</p>
-          </div>
-          <figure class="quote pull-quote" data-anim="fade-up">
-            <span class="quote_mark"><svg aria-hidden="true"><use href="#i-quote"/></svg></span>
-            <blockquote class="quote_text">“Because of our experience, we work with partners we trust, whose quality of cooperation and the quality of the drug product they deliver are exactly what we expect.”</blockquote>
-            <figcaption class="quote_author"><strong>Anna Zamojska-Jaroszewicz<span class="tbc" title="TBC #13 in the copy doc (job title and quote sign-off sit under #14)">TBC #13</span></strong></figcaption>
-          </figure>
-
-          <div class="svc_group">
-            <div class="svc_group-header"><h3 class="heading-style-h3">In-house at Rezon Bio</h3><span class="badge"><svg aria-hidden="true"><use href="#i-symbol"/></svg>Rezon Bio teams</span></div>
-            <div class="svc_grid" data-anim="stagger">
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-lavender is-large"><svg aria-hidden="true"><use href="#i-cell"/></svg></span><span class="tbc" title="TBC #7: cell line development in-house or partner; host cell line and typical titers">TBC #7</span></div>
-                <p><strong>Cell line development</strong>High-yield mammalian cell lines</p>
-              </div>
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-lavender is-large"><svg aria-hidden="true"><use href="#i-flow"/></svg></span></div>
-                <p><strong>Process development</strong>Scalable upstream and downstream processes</p>
-              </div>
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-lavender is-large"><svg aria-hidden="true"><use href="#i-chart"/></svg></span></div>
-                <p><strong>Analytical development and QC</strong>Phase-appropriate methods, CQA-driven assays, release testing</p>
-              </div>
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-lavender is-large"><svg aria-hidden="true"><use href="#i-tank"/></svg></span></div>
-                <p><strong>Clinical and commercial DS manufacturing</strong>Flexible single-use capacity, inspection-ready operations</p>
-              </div>
+            <p>Planning a process change or site transfer? Talk to our team about your comparability evidence before the change, not after.</p>
+            <div class="cta-band_buttons">
+              <a href="https://rezonbio.com/contact/" class="button">Talk to our biosimilar team <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              <a href="#" data-todo="Article URL" class="button is-glass">Read our article <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
             </div>
           </div>
-
-          <div class="svc_group">
-            <div class="svc_group-header"><h3 class="heading-style-h3">Through qualified partners</h3></div>
-            <div class="svc_grid is-two" data-anim="stagger">
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-peach is-large"><svg aria-hidden="true"><use href="#i-vial"/></svg></span><span class="badge"><svg aria-hidden="true"><use href="#i-check"/></svg>Qualified partner</span></div>
-                <p><strong>Drug product development</strong>Formulation, high-concentration and co-formulation, device and packaging strategy</p>
-              </div>
-              <div class="svc_card">
-                <div class="svc_card-top"><span class="icon-tile is-peach is-large"><svg aria-hidden="true"><use href="#i-syringe"/></svg></span><span class="badge"><svg aria-hidden="true"><use href="#i-check"/></svg>Qualified partner</span></div>
-                <p><strong>Drug product manufacturing</strong>Ready-to-fill formulations, vials, device assembly</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="svc_supporting" data-anim="fade-up">
-            <span class="text-label">Supporting</span>
-            <span class="chip">Tech transfer</span>
-            <span class="chip">PPQ</span>
-            <span class="chip">Process characterization</span>
-            <span class="chip">Regulatory and PAI support</span>
-            <span class="chip">Reference product sourcing</span>
-            <span class="chip">Comparability assessment</span>
-            <span class="chip">Device development</span>
-          </div>
-          <div class="links-row">
-            <a href="#" data-todo="Article 5 URL" class="text-link">Read where drug substance ends and drug product begins <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== 9. FACILITIES ===================== -->
+    <!-- ===================== 7. FACILITIES ===================== -->
     <section class="section_facilities" id="facilities">
       <div class="padding-global padding-section-large">
         <div class="container-huge">
           <div class="section-header" data-anim="fade-up">
             <span class="text-label">Facilities</span>
-            <h2 class="heading-style-h2">Two GMP sites, from first-in-human to commercial supply</h2>
+            <h2 class="heading-style-h2">Two GMP sites to support from first-in-human to commercial supply</h2>
           </div>
           <div class="facilities_layout" data-facilities>
             <div class="facilities_media">
@@ -1138,7 +1020,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
       </div>
     </section>
 
-    <!-- ===================== 10. OUR 97% EXPLAINED ===================== -->
+    <!-- ===================== 8. OUR 97% EXPLAINED ===================== -->
     <section class="section_explained is-on-dark" id="batch-success">
       <div class="glow explained_glow" aria-hidden="true"></div>
       <div class="padding-global padding-section-large">
@@ -1146,24 +1028,15 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
           <div class="explained_figure" data-anim="fade-up">
             <span class="text-label">Batch success</span>
             <div class="explained_number" aria-hidden="true">97%</div>
-            <p class="explained_caption">batch success rate across 137 batches since 2024<span class="tbc" title="TBC #4: confirm the batch count (GMP Manufacturing page says 170+, homepage and Article 6 say 137)">TBC #4</span></p>
+            <p class="explained_caption">batch success rate across 137 batches since 2024</p>
           </div>
           <div class="explained_content" data-anim="fade-up">
             <h2 class="heading-style-h2 is-medium">What does our 97% batch success rate actually mean?</h2>
-            <p>Rezon Bio reports a 97% batch success rate across 137 batches since 2024. A batch counts only if it was made within the validated control strategy, met all CQA acceptance criteria and was released without quality, safety or compliance concerns. Any deviation must be investigated, shown not to affect the product and accepted by quality assurance.</p>
-            <div class="breakdown is-tbc-only">
-              <div class="breakdown_header"><span class="text-label">Breakdown</span><span class="tbc" title="TBC #4: breakdown by year, site and batch type, plus a biosimilar-only rate">TBC #4</span></div>
-              <div class="breakdown_grid">
-                <div class="breakdown_cell"><span>By year</span><span class="breakdown_value">–</span></div>
-                <div class="breakdown_cell"><span>By site</span><span class="breakdown_value">–</span></div>
-                <div class="breakdown_cell"><span>By batch type (commercial, PPQ, clinical)</span><span class="breakdown_value">–</span></div>
-                <div class="breakdown_cell"><span>Biosimilar-only rate</span><span class="breakdown_value">–</span></div>
-              </div>
-            </div>
+            <p>Rezon Bio reports a 97% batch success rate across 137 batches since 2024. A batch counts only if it was made within the validated control strategy, met all CQA acceptance criteria, and was released without quality, safety, or compliance concerns. Any deviation must be investigated, shown not to affect the product, and accepted by quality assurance.</p>
             <figure class="quote">
               <span class="quote_mark"><svg aria-hidden="true"><use href="#i-quote"/></svg></span>
               <blockquote class="quote_text">“100% success is the target. Even with a 97% batch success rate, we always look into the remaining three percent and learn from it.”</blockquote>
-              <figcaption class="quote_author"><strong>Anna Zamojska-Jaroszewicz<span class="tbc" title="TBC #13 in the copy doc (job title and quote sign-off sit under #14)">TBC #13</span></strong></figcaption>
+              <figcaption class="quote_author"><strong>Anna Zamojska-Jaroszewicz</strong></figcaption>
             </figure>
             <div class="links-row" style="margin-top:0">
               <a href="#" data-todo="Article 6 URL" class="text-link">What does a CDMO batch success rate actually mean? <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
@@ -1174,7 +1047,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
       </div>
     </section>
 
-    <!-- ===================== 11. FAQ ===================== -->
+    <!-- ===================== 9. FAQ ===================== -->
     <section class="section_faq" id="faq">
       <div class="padding-global padding-section-large">
         <div class="container-huge faq_layout">
@@ -1191,7 +1064,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
           <div class="faq_list">
             <details class="faq_item" open>
               <summary><h3>Can a European CDMO support a biosimilar program from cell line development through to PPQ?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
-              <p class="faq_answer">Yes. Rezon Bio covers cell line development, process and analytical development, scale-up, clinical and commercial drug substance manufacturing and PPQ, with regulatory support through to market authorization, at two FDA- and EMA-approved sites in Poland.<span class="tbc" title="TBC #7: cell line development in-house or partner">TBC #7</span></p>
+              <p class="faq_answer">Yes. Rezon Bio covers cell line development, process and analytical development, scale-up, clinical and commercial drug substance manufacturing and PPQ, with regulatory support through to market authorization, at two FDA- and EMA-approved sites in Poland.</p>
             </details>
             <details class="faq_item">
               <summary><h3>How do biosimilar CDMOs differ from NBE-focused manufacturers?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
@@ -1204,7 +1077,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             <details class="faq_item">
               <summary><h3>Can analytical data replace a Phase III comparative efficacy study?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
               <!-- Outbound links: FDA October 2025 draft guidance; EMA March 2026 reflection paper -->
-              <p class="faq_answer">In some cases. <a href="#" data-todo="FDA October 2025 draft guidance URL">FDA draft guidance (October 2025)</a> proposes that analytical and pharmacokinetic similarity data may replace a comparative efficacy study in appropriate cases, and the <a href="#" data-todo="EMA March 2026 reflection paper URL">EMA’s March 2026 reflection paper</a> allows a waiver when specific criteria are met. In one recent mAb biosimilar program, the FDA agreed Rezon Bio’s analytical package could support waiving the Phase III trial.<span class="tbc" title="TBC #6: number of CES waivers achieved. #17 (Ooho): check whether the FDA draft guidance has been finalized">TBC #6, #17</span></p>
+              <p class="faq_answer">In some cases. <a href="#" data-todo="FDA October 2025 draft guidance URL">FDA draft guidance (October 2025)</a> proposes that analytical and pharmacokinetic similarity data may replace a comparative efficacy study in appropriate cases, and the <a href="#" data-todo="EMA March 2026 reflection paper URL">EMA’s March 2026 reflection paper</a> allows a waiver when specific criteria are met. In one recent mAb biosimilar program, the FDA agreed Rezon Bio’s analytical package could support waiving the Phase III trial.</p>
             </details>
             <details class="faq_item">
               <summary><h3>Does Rezon Bio have commercially approved biosimilars?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
@@ -1212,7 +1085,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             </details>
             <details class="faq_item">
               <summary><h3>How long does biosimilar development take?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
-              <p class="faq_answer">Industry estimates put mAb biosimilar development at six to eight years, with Phase III efficacy studies alone taking one to three. Rezon Bio’s integrated model targets market entry in less than 3 years, depending on the molecule and whether an efficacy study is needed.<span class="tbc" title="TBC #5: typical duration per stage">TBC #5</span></p>
+              <p class="faq_answer">Industry estimates put mAb biosimilar development at six to eight years, with Phase III efficacy studies alone taking one to three. Rezon Bio’s integrated model targets market entry in less than 3 years, depending on the molecule and whether an efficacy study is needed.</p>
             </details>
             <details class="faq_item">
               <summary><h3>What analytical data does Rezon Bio generate for biosimilars?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
@@ -1220,7 +1093,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             </details>
             <details class="faq_item">
               <summary><h3>Does Rezon Bio have a PPQ track record for biosimilars?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
-              <p class="faq_answer">Yes. Process characterization builds the frame for Process Performance Qualification (PPQ), part of our <a href="https://rezonbio.com/solutions/technology-transfer-msat-ppq/">technology transfer, MSAT and PPQ service</a>.<span class="tbc" title="TBC #10: number of PPQs executed, and how many were biosimilars">TBC #10</span></p>
+              <p class="faq_answer">Yes. Process characterization builds the frame for Process Performance Qualification (PPQ), part of our <a href="https://rezonbio.com/solutions/technology-transfer-msat-ppq/">technology transfer, MSAT and PPQ service</a>.</p>
             </details>
             <details class="faq_item">
               <summary><h3>At what scale can Rezon Bio manufacture biosimilars?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
@@ -1228,7 +1101,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
             </details>
             <details class="faq_item">
               <summary><h3>What types of biosimilars does Rezon Bio work on?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
-              <p class="faq_answer">Mammalian-expressed biologics, including monoclonal antibodies such as IgG1 mAbs and mAb fragments.<span class="tbc" title="TBC #9: other molecule types (e.g. fusion proteins)">TBC #9</span></p>
+              <p class="faq_answer">Mammalian-expressed biologics, including monoclonal antibodies such as IgG1 mAbs and mAb fragments.</p>
             </details>
             <details class="faq_item">
               <summary><h3>How do I start a biosimilar program with Rezon Bio?</h3><span class="faq_icon" aria-hidden="true"></span></summary>
@@ -1239,7 +1112,7 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
       </div>
     </section>
 
-    <!-- ===================== 12. RELATED READING ===================== -->
+    <!-- ===================== 10. RELATED READING ===================== -->
     <section class="section_reading">
       <div class="padding-global" style="padding-bottom:120px">
         <div class="container-huge">
@@ -1340,7 +1213,6 @@ html.hide-tbc .tbc,html.hide-tbc .is-tbc-only{display:none!important}
   </a>
 
   <!-- DRAFT ONLY: remove before go-live -->
-  <button class="review-toggle" data-tbc-toggle type="button">Hide TBC markers</button>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
